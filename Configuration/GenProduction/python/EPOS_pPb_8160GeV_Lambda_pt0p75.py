@@ -8,8 +8,8 @@ generator = cms.EDFilter("ReggeGribovPartonMCGeneratorFilter",
 			 skipNuclFrag = cms.bool(True), #in HI collisions nuclear fragments with pt=0 can be in the hep event. to skip those activate this option
 			 beammomentum = cms.double(4080),
 			 targetmomentum = cms.double(-4080),
-			 beamid = cms.int32(208),
-			 targetid = cms.int32(1),
+			 beamid = cms.int32(1),
+			 targetid = cms.int32(208),
 			 model = cms.int32(0),
 			 )
 
